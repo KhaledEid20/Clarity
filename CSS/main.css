@@ -1,0 +1,135 @@
+:root{
+    --main-color : #EA580C;
+    --dark-gradient-color : #893212;
+    --light-gradient-color : #ff6900;
+    --section-padding : 96px;
+    --section-padding-small-screen : 5.375rem;
+    --txt-color : #4A5565;
+    --section-color : #FFF7EE;
+    --main-transition : 0.3s;
+}
+
+body{
+    font-family: "Inter" , sans-serif;
+}
+p{
+    margin-block: 0;
+}
+/* ---------------------------------------------nav-bar----------------------------- */
+nav .navbar-toggler{
+    border: none;
+}
+nav .navbar-toggler:focus{
+    box-shadow: none;
+}
+nav .navbar-nav .nav-item,
+nav .navbar-nav .dropdown-item{
+    margin-bottom: 14px;
+    font-size: 16px;
+    font-weight: 500;
+}
+.navbar .dropdown-toggle::after {
+    display: none!important;
+}
+nav .navbar-nav .nav-item a:focus,
+nav .navbar-nav .dropdown-item a:focus,
+nav .navbar-nav .nav-item:hover a ,
+nav .navbar-nav .dropdown-item:hover a{
+    color: var(--main-color);
+}
+
+nav .navbar-nav{
+    display: relative;
+}
+
+nav .navbar-nav .dropdown-menu{
+    left: -50px;
+    padding-left:10px;
+    height: 300px;
+    overflow-y: auto;
+}
+
+nav .navbar-nav .dropdown-menu .content:hover{
+    background-color: #FCF6F3;
+    transition: 0.1s;
+}
+nav .navbar-nav .dropdown-menu .content .c-icon{
+    transition: all 0.1s;
+}
+
+nav .navbar-nav .dropdown-menu .content:hover .c-icon{
+    transform : scale(1.15)
+}
+nav button.sign-in{
+    color: black;
+    transition: 0.2s;
+}
+nav button.sign-in:hover{
+    color: var(--main-color);
+    transition: 0.2s;
+}
+.nav-buttons{
+    padding-top: 20px;
+    border-top: 1px solid rgba(74, 85, 101,0.3);
+}
+/* ------------------------------------------------header---------------------------- */
+header{
+    background: linear-gradient(90deg, var(--section-color) 80%, white);
+    padding-top: 150px;
+    padding-bottom: var(--section-padding);
+    isolation: isolate;
+}
+header .row > div {
+    overflow: visible;
+}
+header .badge{
+    background-color: #FCEADD;
+}
+header .content h1 span{
+    font-weight: 900;
+    line-height: 39px;
+    font-size: 32px;
+}
+header .content p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 1.25rem;
+    line-height: 28px;
+    color: var(--txt-color);
+}
+header .content button.watch{
+    color: var(--txt-color);
+    background-color: transparent;
+    border: 2px solid #4a55655c;
+    transition: all var(--main-transition);
+}
+header .content button.watch:hover{
+    color: var(--main-color);
+    border-color: var(--main-color);
+}
+header .figure{
+    position: relative;
+    z-index: 1;
+
+}
+header .beyond-figure{
+    position: absolute;
+    inset: 0;
+    background-color: #F8D9C8;
+    border-radius: 20px;
+    transform: rotate(5deg);
+    z-index: 1;
+}
+
+header .image-holder{
+    position: relative;
+    z-index: 2;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+header .image-holder img{
+    border-radius: 10px;
+}
+/* ---------------------------------------------------header-end------------------------ */

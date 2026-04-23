@@ -1,0 +1,84 @@
+
+:root{
+    --main-color : #EA580C;
+    --dark-gradient-color : #893212;
+    --light-gradient-color : #ff6900;
+    --main-transition : 0.05s;
+
+}
+
+.c-main{
+    color : var(--main-color);
+}
+.c-dark{
+    color: var(--dark-gradient-color);
+}
+.c-light{
+    color: var(--light-gradient-color);
+}
+.c-bg-main{
+    background-color : var(--main-color);
+}
+.c-bg-dark{
+    background-color: var(--dark-gradient-color);
+}
+.c-bg-light{
+    background-color: var(--light-gradient-color);
+}
+.c-light-dark{
+    background: linear-gradient(to right, var(--light-gradient-color) , var(--dark-gradient-color));
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+.c-dark-light-dark{
+    background: linear-gradient(to right, var(--dark-gradient-color), var(--main-color) , var(--dark-gradient-color));
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+.c-bg-light-dark{
+    background: linear-gradient(to right, var(--light-gradient-color) , var(--dark-gradient-color));
+}
+.c-bg-light-main{
+    background: linear-gradient(to right, var(--light-gradient-color) , var(--main-color));
+}
+.c-bg-dark-light-dark{
+    background: linear-gradient(to right, var(--light-gradient-color), var(--main-color) , var(--dark-gradient-color));
+
+}
+
+/* ---------------------------------------------Buttons------------------------------------- */
+
+.c-button,
+.card-shadow{
+    position: relative;
+    top: 0;
+    transition: all var(--main-transition);
+}
+.c-button:hover,
+.card-hover:hover{
+    top: -5px;
+    transition: var(--main-transition);
+}
+.c-button:hover{
+
+    box-shadow: var(--light-gradient-color) 0px 30px 30px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+.card-hover:hover{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+/* -------------------------------------------------card-shadow ----------------------------- */
+
+.c-badge-small{
+    padding: 7px 14px;
+}
+
+/* -------------------------------------------------------------------------------- */
+.c-icon{
+    padding:10px;
+    background-color: #F8E5DD;
+    border-radius: 10px;
+    color: var(--main-color);
+}

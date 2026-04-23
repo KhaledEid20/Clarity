@@ -1,0 +1,38 @@
+
+@media (min-width: 1024px) {
+    nav .navbar-nav .nav-item,
+    nav .navbar-nav .dropdown-item {
+        margin-bottom: 0;
+        font-size: 16px;
+    }
+    .nav-buttons{
+        padding-top: 0px;
+        border-top: none;
+    }
+    nav .navbar-nav .dropdown-menu{
+        position: absolute;
+        top: 40px;
+        left: -50px;
+        width: 1000px;
+        height: auto;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+        padding: 40px;
+        overflow-y: auto;
+    }
+    header{
+        height: 100vh;
+        padding-bottom: 0px;
+    }
+    header .content h1 span{
+        font-weight: 900;
+        line-height: 75px;
+        font-size: 60px;
+    }
+    header .content p{
+        line-height: 33px;
+        color: var(--txt-color);
+    }
+    header .figure{
+        width: 90%!important;
+    }
+}
