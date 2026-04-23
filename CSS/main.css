@@ -320,6 +320,14 @@ header .image-holder img{
     color: var(--main-color);
     box-shadow: none;
 }
+#FAQ .accordion-button:focus {
+    box-shadow: none;
+}
+
+#FAQ .accordion-button:not(.collapsed) {
+    background: transparent;
+    color: var(--main-color);
+}
 /* -----------------------------------------------------End of FAQ ------------------------------------------ */
 #ContactUS{
     background: linear-gradient(90deg, var(--section-color) 80%, white);
