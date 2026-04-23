@@ -7,6 +7,7 @@
 
 }
 
+
 .c-main{
     color : var(--main-color);
 }
@@ -33,6 +34,12 @@
 }
 .c-dark-light-dark{
     background: linear-gradient(to right, var(--dark-gradient-color), var(--main-color) , var(--dark-gradient-color));
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+.c-light-main{
+    background: linear-gradient(to right,  var(--light-gradient-color),var(--main-color) );
     background-clip: text;
     -webkit-background-clip: text;
     color: transparent;
@@ -81,4 +88,25 @@
     background-color: #F8E5DD;
     border-radius: 10px;
     color: var(--main-color);
+}
+/* -------------------------------------------------------------- */
+
+.badge{
+    background-color: #FCEADD;
+}
+.icon{
+    padding: 10px;
+    width: fit-content;
+}
+.card{
+    position: relative;
+    top: 0;
+    border: .1px solid #4a55651b;
+    transition: all var(--main-transition);
+}
+.card:hover{
+    position: relative;
+    top: -10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    transition: var(--main-transition);
 }

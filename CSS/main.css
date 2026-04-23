@@ -14,6 +14,20 @@ body{
 }
 p{
     margin-block: 0;
+    color: var(--txt-color);
+}
+.section-head h2{
+    font-size: 1.625rem;
+    font-weight: 900;
+}
+.section-head p{
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 25px;
+    color: var(--txt-color);
+}
+.section-head .badge{
+    width: fit-content;
 }
 /* ---------------------------------------------nav-bar----------------------------- */
 nav .navbar-toggler{
@@ -76,15 +90,13 @@ nav button.sign-in:hover{
 header{
     background: linear-gradient(90deg, var(--section-color) 80%, white);
     padding-top: 150px;
-    padding-bottom: var(--section-padding);
+    padding-bottom: var(--section-padding-small-screen);
     isolation: isolate;
 }
 header .row > div {
     overflow: visible;
 }
-header .badge{
-    background-color: #FCEADD;
-}
+
 header .content h1 span{
     font-weight: 900;
     line-height: 39px;
@@ -133,3 +145,89 @@ header .image-holder img{
     border-radius: 10px;
 }
 /* ---------------------------------------------------header-end------------------------ */
+#services{
+    padding-block: var(--section-padding-small-screen);
+}
+
+
+#services .card h3{
+    font-size: 1.125rem;
+}
+#services .card p{
+    font-size: .875rem;
+    line-height: 23px;
+}
+
+#services .card .check-list span{
+    font-size: .75rem;
+}
+#services .card .link{
+    margin-top: 20px;
+}
+#services .card .link span{
+    font-size: .875rem;
+}
+
+#services .card:hover .icon{
+    transform: scale(1.1);
+    transition: var(--main-transition);
+}
+#services .card .link i{
+    position: relative;
+    right: -5px;
+    transition: var(--main-transition);
+
+}
+#services .card:hover .link i{
+    right: -10px;
+}
+/* -----------------------------------------------technology------------------------- */
+#technology{
+    padding-block: var(--section-padding);
+}
+#technology .list-item button {
+    border: 0;
+    background-color: transparent;
+}
+#technology .list-item button div{
+    display: flex;
+    gap: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    padding: .4375rem .875rem;
+    color: var(--txt-color);
+    text-align: center;
+}
+
+#technology .list-item .link.active div{
+    color: var(--main-color);
+}
+#technology .list-item .link.active div::after{
+    opacity: 1;
+}
+
+#technology .list-item .link div{
+    position: relative;
+    transition: all var(--main-transition);
+}
+#technology .list-item .link div::after{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background-color: var(--main-color);
+    opacity: 0;
+    transition: all var(--main-transition);
+
+}
+#technology .list-item .link:hover div{
+    color: var(--main-color)
+}
+#technology .list-item .link:hover div::after{
+    opacity: 1;
+}
+
+
+/* -----------------------------------------------end of technology sec------------------------- */
