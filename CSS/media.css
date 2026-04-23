@@ -39,4 +39,43 @@
     header .figure{
         width: 90%!important;
     }
+
+    #reviews .figure .image-holder{
+        width: 10%;
+    }
+    #reviews .stat{
+        display: block;
+    }
+    #reviews .figure .image-holder + div{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .section-head .badge{
+        font-size: 14px;
+    }
+    .section-head h2{
+        font-size: 3rem;
+        font-weight: 900;
+    }
+    .section-head p{
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 28px;
+        color: var(--txt-color);
+    }
+    .section-head .badge{
+        width: fit-content;
+    }
+    header .image-holder .top-icon{
+    top: 0;
+    right: 0;
+    font-size: 20px;
+
+}
+    header .image-holder .bottom-icon{
+        bottom: 0;
+        left: 0;
+        font-size: 30px;
+    }
 }

@@ -89,7 +89,7 @@ nav button.sign-in:hover{
 /* ------------------------------------------------header---------------------------- */
 header{
     background: linear-gradient(90deg, var(--section-color) 80%, white);
-    padding-top: 150px;
+    padding-top: 90px;
     padding-bottom: var(--section-padding-small-screen);
     isolation: isolate;
 }
@@ -140,7 +140,22 @@ header .image-holder{
     border-radius: 20px;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 }
+header .image-holder .top-icon,
+header .image-holder .bottom-icon{
+    position: absolute;
+}
+header .image-holder .top-icon{
+    top: -30px;
+    right: -30px;
+    font-size: 20px;
 
+}
+header .image-holder .bottom-icon{
+    bottom: -30px;
+    left: -30px;
+    font-size: 30px;
+
+}
 header .image-holder img{
     border-radius: 10px;
 }
@@ -231,3 +246,150 @@ header .image-holder img{
 
 
 /* -----------------------------------------------end of technology sec------------------------- */
+#reviews{
+    background: linear-gradient(90deg, var(--section-color) 80%, white);
+    padding-block: var(--section-padding-small-screen);
+}
+#reviews .figure .image-holder{
+    width: 30%;
+    border: 1px solid var(--main-color);
+    border-radius:50%;
+    position: relative;
+}
+
+#reviews .figure .image-holder .check{
+    color: var(--main-color);
+    position: absolute;
+    bottom: 0;
+    right: -10px;
+    font-size: 30px;
+
+}
+
+#reviews .stat{
+    display: none;
+}
+#reviews .carousel-indicators{
+    bottom: -35px;
+}
+#reviews .carousel-indicators button{
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background-color: var(--light-gradient-color);
+    transition: all var(--main-transition);
+}
+#reviews .carousel-indicators button:hover,
+#reviews .carousel-indicators button.active{
+    width: 40px;
+    border-radius: 999px;
+    background-color: var(--light-gradient-color);
+}
+
+/* ------------------------------------------------FAQ------------------------------------------------ */
+#FAQ{
+    padding-block: var(--section-padding-small-screen);
+}
+#FAQ .accordion-item{
+    border-radius: 10px;
+    padding: 15px;
+}
+#FAQ .accordion-item:hover{
+    border-color: #ff6a005b;
+    background-color: #4a556509;
+
+}
+#FAQ .accordion-item:hover .accordion-header{
+    border-color: #ff6a005b;
+    background-color: #4a556509;
+
+}
+#FAQ .accordion-button {
+    color: var(--dark-gradient-color);
+    font-weight: 600;
+    font-size: 16px;
+    box-shadow: none;
+}
+#FAQ .accordion-button:focus {
+    color: var(--main-color);
+    box-shadow: none !important;
+    outline: none;
+    background-color: transparent;
+}
+#FAQ .accordion-button:not(.collapsed) {
+    color: var(--main-color);
+    box-shadow: none;
+}
+/* -----------------------------------------------------End of FAQ ------------------------------------------ */
+#ContactUS{
+    background: linear-gradient(90deg, var(--section-color) 80%, white);
+    padding-block: var(--section-padding-small-screen);
+}
+#ContactUS .card{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+
+}
+#ContactUS .card:hover{
+    top: 0;
+}
+#ContactUS .budget div h4{
+    transition: all var(--main-transition);
+}
+#ContactUS .budget div:hover h4,
+#ContactUS .budget div:focus h4
+{
+    color:var(--main-color);
+}
+#ContactUS .budget div .inner-card{
+    border: 1px solid #4A5565;
+    transition: all var(--main-transition);
+}
+#ContactUS .budget div:hover .inner-card,
+#ContactUS .budget div:focus .inner-card
+{
+    border-color: var(--main-color);
+}
+
+#ContactUS label{
+    font-size: 16px;
+    font-weight: 600;
+}
+#ContactUS input,
+#ContactUS select,
+#ContactUS textarea
+{
+    padding: 20px;
+}
+#ContactUS input:focus,
+#ContactUS select:focus,
+#ContactUS textarea:focus
+{
+    border: 2px solid var(--main-color);
+    box-shadow: none;
+    
+}
+
+#ContactUS .info p{
+    font-size: .875rem;
+    font-weight: 400;
+    color: #fffc;
+}
+
+/* ---------------------------------------------------------start footer -------------------------- */
+
+footer{
+    padding-top: var(--section-padding-small-screen);
+}
+footer .link .row div{
+    width: fit-content;
+}
+footer .link{
+    background-color: #83848759;
+    transition: all var(--main-transition);
+    color: black;
+}
+footer .link:hover{
+    background-color: var(--main-color);
+    color: white;
+    transition: var(--main-transition);
+}

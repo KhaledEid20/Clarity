@@ -1,0 +1,95 @@
+/* ================= GLOBAL CARD STYLE ================= */
+#technology .card {
+    position: relative;
+    overflow: hidden;
+    transition: 0.3s;
+}
+
+/* Soft gradient background for card */
+#technology .card::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(
+        135deg,
+        var(--card-color, #ccc) 10%,
+        transparent 60%
+    );
+    opacity: 0.08;
+    z-index: 0;
+}
+
+#technology .card > * {
+    position: relative;
+    z-index: 1;
+}
+
+/* Hover effect */
+#technology .card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+
+/* ================= ICON ================= */
+#technology .card .icon {
+    background: linear-gradient(
+        135deg,
+        var(--card-color),
+        color-mix(in srgb, var(--card-color) 70%, black)
+    ) !important;
+    color: white;
+}
+
+/* ================= BADGES ================= */
+#technology .card .badge {
+    background: linear-gradient(
+        135deg,
+        var(--card-color),
+        color-mix(in srgb, var(--card-color) 60%, black)
+    );
+    color: white;
+    border: none;
+}
+
+
+/* ================= COLORS (USING YOUR STRUCTURE) ================= */
+
+/* Frontend */
+#pills-frontend .col-12:nth-child(1) { --card-color:#0066cc; }
+#pills-frontend .col-12:nth-child(2) { --card-color:#000000; }
+#pills-frontend .col-12:nth-child(3) { --card-color:#41b883; }
+#pills-frontend .col-12:nth-child(4) { --card-color:#dd3431; }
+#pills-frontend .col-12:nth-child(5) { --card-color:#06b6d4; }
+#pills-frontend .col-12:nth-child(6) { --card-color:#a855f7; }
+
+/* Backend */
+#pills-backend .col-12:nth-child(1) { --card-color:#0066cc; }
+#pills-backend .col-12:nth-child(2) { --card-color:#000000; }
+#pills-backend .col-12:nth-child(3) { --card-color:#41b883; }
+#pills-backend .col-12:nth-child(4) { --card-color:#dd3431; }
+#pills-backend .col-12:nth-child(5) { --card-color:#06b6d4; }
+#pills-backend .col-12:nth-child(6) { --card-color:#a855f7; }
+
+/* Mobile */
+#pills-mobile .col-12:nth-child(1) { --card-color:#0066cc; }
+#pills-mobile .col-12:nth-child(2) { --card-color:#000000; }
+#pills-mobile .col-12:nth-child(3) { --card-color:#41b883; }
+#pills-mobile .col-12:nth-child(4) { --card-color:#dd3431; }
+#pills-mobile .col-12:nth-child(5) { --card-color:#06b6d4; }
+#pills-mobile .col-12:nth-child(6) { --card-color:#a855f7; }
+
+/* Cloud */
+#pills-cloud .col-12:nth-child(1) { --card-color:#0066cc; }
+#pills-cloud .col-12:nth-child(2) { --card-color:#000000; }
+#pills-cloud .col-12:nth-child(3) { --card-color:#41b883; }
+#pills-cloud .col-12:nth-child(4) { --card-color:#dd3431; }
+#pills-cloud .col-12:nth-child(5) { --card-color:#06b6d4; }
+#pills-cloud .col-12:nth-child(6) { --card-color:#a855f7; }
+
+/* Database */
+#pills-database .col-12:nth-child(1) { --card-color:#0066cc; }
+#pills-database .col-12:nth-child(2) { --card-color:#000000; }
+#pills-database .col-12:nth-child(3) { --card-color:#41b883; }
+#pills-database .col-12:nth-child(4) { --card-color:#dd3431; }
+#pills-database .col-12:nth-child(5) { --card-color:#06b6d4; }
+#pills-database .col-12:nth-child(6) { --card-color:#a855f7; }

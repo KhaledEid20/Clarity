@@ -19,6 +19,7 @@
         <link rel="stylesheet" href="./CSS/custom-comp.css">
         <link rel="stylesheet" href="./CSS/main.css">
         <link rel="stylesheet" href="./CSS/media.css">
+        <link rel="stylesheet" href="CSS/technology-cards.css">
     </head>
     <body>
         <nav class="navbar navbar-expand-lg fixed-top bg-white">
@@ -294,6 +295,14 @@
                         <div class="d-flex justify-content-center">
                             <div class="figure w-75 w-lg-100">
                                 <div class="image-holder w-100 bg-white">
+                                    <div
+                                        class="top-icon p-4 p-lg-4 c-bg-light-dark text-white rounded-lg-4 rounded-2">
+                                        <i class="fa-solid fa-code "></i>
+                                    </div>
+                                    <div
+                                        class="bottom-icon p-4 p-lg-4 c-bg-light-main text-white rounded-lg-4 rounded-2">
+                                        <i class="fa-solid fa-mobile"></i>
+                                    </div>
                                     <img src="./Images/hero-img.png"
                                         class="w-100"
                                         alt>
@@ -690,10 +699,10 @@
                                         <i class="fa-brands fa-react"></i>
                                     </div>
                                     <h3
-                                        class="fs-4 c-dark fw-bold">React.Js</h3>
-                                    <p>Component-based library for building
-                                        interactive user interfaces with virtual
-                                        DOM</p>
+                                        class="fs-4 c-dark fw-bold">NEXTJS</h3>
+                                    <p>Full-stack React framework with
+                                        server-side rendering and static
+                                        generation</p>
                                     <div class="badges">
                                         <span
                                             class="badge rounded-pill text-bg-success">JSX</span>
@@ -711,10 +720,10 @@
                                         <i class="fa-brands fa-react"></i>
                                     </div>
                                     <h3
-                                        class="fs-4 c-dark fw-bold">React.Js</h3>
-                                    <p>Component-based library for building
-                                        interactive user interfaces with virtual
-                                        DOM</p>
+                                        class="fs-4 c-dark fw-bold">Vue.js</h3>
+                                    <p>Progressive framework for building user
+                                        interfaces with excellent developer
+                                        experience</p>
                                     <div class="badges">
                                         <span
                                             class="badge rounded-pill text-bg-success">JSX</span>
@@ -1349,9 +1358,910 @@
         <!-- -----------------------------------------------------------------end of tech section ---------------------------------------- -->
         <!-- ---------------------------------------------------------------------start Reviews section -------------------------------------------- -->
         <div id="reviews">
+            <div
+                class="section-head d-flex flex-column  align-items-center mb-5">
+                <div class="badge px-3 py-2 c-light rounded-pill mb-4">
+                    <i class="fa-solid fa-heart"></i>
+                    <span>Client Testimonials</span>
+                </div>
+                <div
+                    class="txt-content d-flex flex-column justify-content-center align-items-center text-center jus">
+                    <h2 class="c-light-main"><span
+                            class="c-dark">What Our</span> Clients Say</h2>
+                    <p class="mt-3 w-75">Don't just take our word for it. Here's
+                        what our clients have to say about working with us.</p>
+                </div>
+            </div>
+            <div class="container-fluid container-md container-lg">
+                <div id="carouselExampleDark"
+                    class="carousel carousel-dark slide">
+                    <div class="carousel-indicators">
+                        <button type="button"
+                            data-bs-target="#carouselExampleDark"
+                            data-bs-slide-to="0" class="active"
+                            aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button"
+                            data-bs-target="#carouselExampleDark"
+                            data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button"
+                            data-bs-target="#carouselExampleDark"
+                            data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        <button type="button"
+                            data-bs-target="#carouselExampleDark"
+                            data-bs-slide-to="3" aria-label="Slide 4"></button>
+                        <button type="button"
+                            data-bs-target="#carouselExampleDark"
+                            data-bs-slide-to="4" aria-label="Slide 5"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active"
+                            data-bs-interval="10000">
+                            <div
+                                class="c-card d-flex flex-column w-75 mx-auto p-2">
+                                <div
+                                    class="d-flex flex-column flex-lg-row justify-content-lg-between gap-3">
+                                    <div
+                                        class="rev d-flex align-items-center  gap-3">
+                                        <div class="icon c-icon">
+                                            <i
+                                                class="fa-solid fa-quote-left fa-2x"></i>
+                                        </div>
+                                        <div>
+                                            <p class="mb-2">
+                                                <i
+                                                    class="fa-solid fa-star"
+                                                    style="color: rgb(255, 212, 59);"></i>
+                                                <i
+                                                    class="fa-solid fa-star"
+                                                    style="color: rgb(255, 212, 59);"></i>
+                                                <i
+                                                    class="fa-solid fa-star"
+                                                    style="color: rgb(255, 212, 59);"></i>
+                                                <i
+                                                    class="fa-solid fa-star"
+                                                    style="color: rgb(255, 212, 59);"></i>
+                                                <i
+                                                    class="fa-solid fa-star"
+                                                    style="color: rgb(255, 212, 59);"></i>
+                                            </p>
+                                            <p>5.0 Rating</p>
+                                        </div>
+                                    </div>
+                                    <div
+                                        class="badge py-1 px-2 rounded-pill d-flex align-items-center gap-2 fs-6">
+                                        <i class="fa-solid fa-circle-check"></i>
+                                        Verified
+                                    </div>
+                                </div>
+                                <p class="fs-5 p-3">
+                                    "Clarity transformed our entire digital presence. Their team's expertise and dedication resulted in a 300% increase in our online sales. Absolutely phenomenal work!"
+                                </p>
+                                <div class="d-flex align-items-center">
+                                    <div
+                                        class="figure p-4 d-flex flex-column flex-lg-row align-items-center text-start gap-3">
+                                        <div
+                                            class="image-holder ">
+                                            <img src="./Images/avatar-1.jpg"
+                                                class="w-100 rounded-circle"
+                                                alt>
+                                            <div class="check">
+                                                <i
+                                                    class="fa-solid fa-circle-check"></i>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex flex-column gap-1">
+                                            <h4
+                                                class="fs-4 c-dark fw-bolder">Ahmed
+                                                Al-Farsi</h4>
+                                            <p>CEO, RetailMax</p>
+                                            <div class="linkedin">
+                                                <i
+                                                    class="fa-brands fa-linkedin c-light"></i>
+                                                <span>Verified on
+                                                    LinkedIn</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="stat">
+                                        <h4
+                                            class="fs-2 fw-bold c-main">300%</h4>
+                                        <p class="fs-4">growth</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div
+                                class="c-card d-flex flex-column w-75 mx-auto p-2">
+                                <div
+                                    class="d-flex flex-column flex-lg-row justify-content-lg-between gap-3">
+                                    <div
+                                        class="rev d-flex align-items-center  gap-3">
+                                        <div class="icon c-icon">
+                                            <i
+                                                class="fa-solid fa-quote-left fa-2x"></i>
+                                        </div>
+                                        <div>
+                                            <p class="mb-2">
+                                                <i
+                                                    class="fa-solid fa-star"
+                                                    style="color: rgb(255, 212, 59);"></i>
+                                                <i
+                                                    class="fa-solid fa-star"
+                                                    style="color: rgb(255, 212, 59);"></i>
+                                                <i
+                                                    class="fa-solid fa-star"
+                                                    style="color: rgb(255, 212, 59);"></i>
+                                                <i
+                                                    class="fa-solid fa-star"
+                                                    style="color: rgb(255, 212, 59);"></i>
+                                                <i
+                                                    class="fa-solid fa-star"
+                                                    style="color: rgb(255, 212, 59);"></i>
+                                            </p>
+                                            <p>5.0 Rating</p>
+                                        </div>
+                                    </div>
+                                    <div
+                                        class="badge py-1 px-2 rounded-pill d-flex align-items-center gap-2 fs-6">
+                                        <i class="fa-solid fa-circle-check"></i>
+                                        Verified
+                                    </div>
+                                </div>
+                                <p class="fs-5 p-3">
+                                    "Clarity transformed our entire digital presence. Their team's expertise and dedication resulted in a 300% increase in our online sales. Absolutely phenomenal work!"
+                                </p>
+                                <div class="d-flex align-items-center">
+                                    <div
+                                        class="figure p-4 d-flex flex-column flex-lg-row align-items-center text-start gap-3">
+                                        <div
+                                            class="image-holder ">
+                                            <img src="./Images/avatar-1.jpg"
+                                                class="w-100 rounded-circle"
+                                                alt>
+                                            <div class="check">
+                                                <i
+                                                    class="fa-solid fa-circle-check"></i>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex flex-column gap-1">
+                                            <h4
+                                                class="fs-4 c-dark fw-bolder">Ahmed
+                                                Al-Farsi</h4>
+                                            <p>CEO, RetailMax</p>
+                                            <div class="linkedin">
+                                                <i
+                                                    class="fa-brands fa-linkedin c-light"></i>
+                                                <span>Verified on
+                                                    LinkedIn</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="stat">
+                                        <h4
+                                            class="fs-2 fw-bold c-main">300%</h4>
+                                        <p class="fs-4">growth</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div
+                                class="c-card d-flex flex-column w-75 mx-auto p-2">
+                                <div
+                                    class="d-flex flex-column flex-lg-row justify-content-lg-between gap-3">
+                                    <div
+                                        class="rev d-flex align-items-center  gap-3">
+                                        <div class="icon c-icon">
+                                            <i
+                                                class="fa-solid fa-quote-left fa-2x"></i>
+                                        </div>
+                                        <div>
+                                            <p class="mb-2">
+                                                <i
+                                                    class="fa-solid fa-star"
+                                                    style="color: rgb(255, 212, 59);"></i>
+                                                <i
+                                                    class="fa-solid fa-star"
+                                                    style="color: rgb(255, 212, 59);"></i>
+                                                <i
+                                                    class="fa-solid fa-star"
+                                                    style="color: rgb(255, 212, 59);"></i>
+                                                <i
+                                                    class="fa-solid fa-star"
+                                                    style="color: rgb(255, 212, 59);"></i>
+                                                <i
+                                                    class="fa-solid fa-star"
+                                                    style="color: rgb(255, 212, 59);"></i>
+                                            </p>
+                                            <p>5.0 Rating</p>
+                                        </div>
+                                    </div>
+                                    <div
+                                        class="badge py-1 px-2 rounded-pill d-flex align-items-center gap-2 fs-6">
+                                        <i class="fa-solid fa-circle-check"></i>
+                                        Verified
+                                    </div>
+                                </div>
+                                <p class="fs-5 p-3">
+                                    "Clarity transformed our entire digital presence. Their team's expertise and dedication resulted in a 300% increase in our online sales. Absolutely phenomenal work!"
+                                </p>
+                                <div class="d-flex align-items-center">
+                                    <div
+                                        class="figure p-4 d-flex flex-column flex-lg-row align-items-center text-start gap-3">
+                                        <div
+                                            class="image-holder ">
+                                            <img src="./Images/avatar-1.jpg"
+                                                class="w-100 rounded-circle"
+                                                alt>
+                                            <div class="check">
+                                                <i
+                                                    class="fa-solid fa-circle-check"></i>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex flex-column gap-1">
+                                            <h4
+                                                class="fs-4 c-dark fw-bolder">Ahmed
+                                                Al-Farsi</h4>
+                                            <p>CEO, RetailMax</p>
+                                            <div class="linkedin">
+                                                <i
+                                                    class="fa-brands fa-linkedin c-light"></i>
+                                                <span>Verified on
+                                                    LinkedIn</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="stat">
+                                        <h4
+                                            class="fs-2 fw-bold c-main">300%</h4>
+                                        <p class="fs-4">growth</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item ">
+                            <div
+                                class="c-card d-flex flex-column w-75 mx-auto p-2">
+                                <div
+                                    class="d-flex flex-column flex-lg-row justify-content-lg-between gap-3">
+                                    <div
+                                        class="rev d-flex align-items-center  gap-3">
+                                        <div class="icon c-icon">
+                                            <i
+                                                class="fa-solid fa-quote-left fa-2x"></i>
+                                        </div>
+                                        <div>
+                                            <p class="mb-2">
+                                                <i
+                                                    class="fa-solid fa-star"
+                                                    style="color: rgb(255, 212, 59);"></i>
+                                                <i
+                                                    class="fa-solid fa-star"
+                                                    style="color: rgb(255, 212, 59);"></i>
+                                                <i
+                                                    class="fa-solid fa-star"
+                                                    style="color: rgb(255, 212, 59);"></i>
+                                                <i
+                                                    class="fa-solid fa-star"
+                                                    style="color: rgb(255, 212, 59);"></i>
+                                                <i
+                                                    class="fa-solid fa-star"
+                                                    style="color: rgb(255, 212, 59);"></i>
+                                            </p>
+                                            <p>5.0 Rating</p>
+                                        </div>
+                                    </div>
+                                    <div
+                                        class="badge py-1 px-2 rounded-pill d-flex align-items-center gap-2 fs-6">
+                                        <i class="fa-solid fa-circle-check"></i>
+                                        Verified
+                                    </div>
+                                </div>
+                                <p class="fs-5 p-3">
+                                    "Clarity transformed our entire digital presence. Their team's expertise and dedication resulted in a 300% increase in our online sales. Absolutely phenomenal work!"
+                                </p>
+                                <div class="d-flex align-items-center">
+                                    <div
+                                        class="figure p-4 d-flex flex-column flex-lg-row align-items-center text-start gap-3">
+                                        <div
+                                            class="image-holder ">
+                                            <img src="./Images/avatar-1.jpg"
+                                                class="w-100 rounded-circle"
+                                                alt>
+                                            <div class="check">
+                                                <i
+                                                    class="fa-solid fa-circle-check"></i>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex flex-column gap-1">
+                                            <h4
+                                                class="fs-4 c-dark fw-bolder">Ahmed
+                                                Al-Farsi</h4>
+                                            <p>CEO, RetailMax</p>
+                                            <div class="linkedin">
+                                                <i
+                                                    class="fa-brands fa-linkedin c-light"></i>
+                                                <span>Verified on
+                                                    LinkedIn</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="stat">
+                                        <h4
+                                            class="fs-2 fw-bold c-main">300%</h4>
+                                        <p class="fs-4">growth</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item ">
+                            <div
+                                class="c-card d-flex flex-column w-75 mx-auto p-2">
+                                <div
+                                    class="d-flex flex-column flex-lg-row justify-content-lg-between gap-3">
+                                    <div
+                                        class="rev d-flex align-items-center  gap-3">
+                                        <div class="icon c-icon">
+                                            <i
+                                                class="fa-solid fa-quote-left fa-2x"></i>
+                                        </div>
+                                        <div>
+                                            <p class="mb-2">
+                                                <i
+                                                    class="fa-solid fa-star"
+                                                    style="color: rgb(255, 212, 59);"></i>
+                                                <i
+                                                    class="fa-solid fa-star"
+                                                    style="color: rgb(255, 212, 59);"></i>
+                                                <i
+                                                    class="fa-solid fa-star"
+                                                    style="color: rgb(255, 212, 59);"></i>
+                                                <i
+                                                    class="fa-solid fa-star"
+                                                    style="color: rgb(255, 212, 59);"></i>
+                                                <i
+                                                    class="fa-solid fa-star"
+                                                    style="color: rgb(255, 212, 59);"></i>
+                                            </p>
+                                            <p>5.0 Rating</p>
+                                        </div>
+                                    </div>
+                                    <div
+                                        class="badge py-1 px-2 rounded-pill d-flex align-items-center gap-2 fs-6">
+                                        <i class="fa-solid fa-circle-check"></i>
+                                        Verified
+                                    </div>
+                                </div>
+                                <p class="fs-5 p-3">
+                                    "Clarity transformed our entire digital presence. Their team's expertise and dedication resulted in a 300% increase in our online sales. Absolutely phenomenal work!"
+                                </p>
+                                <div class="d-flex align-items-center">
+                                    <div
+                                        class="figure p-4 d-flex flex-column flex-lg-row align-items-center text-start gap-3">
+                                        <div
+                                            class="image-holder ">
+                                            <img src="./Images/avatar-1.jpg"
+                                                class="w-100 rounded-circle"
+                                                alt>
+                                            <div class="check">
+                                                <i
+                                                    class="fa-solid fa-circle-check"></i>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex flex-column gap-1">
+                                            <h4
+                                                class="fs-4 c-dark fw-bolder">Ahmed
+                                                Al-Farsi</h4>
+                                            <p>CEO, RetailMax</p>
+                                            <div class="linkedin">
+                                                <i
+                                                    class="fa-brands fa-linkedin c-light"></i>
+                                                <span>Verified on
+                                                    LinkedIn</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="stat">
+                                        <h4
+                                            class="fs-2 fw-bold c-main">300%</h4>
+                                        <p class="fs-4">growth</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
 
+                    </div>
+                </div>
+            </div>
         </div>
         <!-- ---------------------------------------------------------------------end of Reviews section -------------------------------------------- -->
+        <!-- --------------------------------------------------------------Faq---------------------------------------------- -->
+        <div id="FAQ">
+            <div
+                class="section-head d-flex flex-column  align-items-center mb-5">
+                <div class="badge px-3 py-2 c-light rounded-pill mb-4">
+                    <i class="fa-solid fa-circle-question"></i>
+                    <span>FAQ</span>
+                </div>
+                <div
+                    class="txt-content d-flex flex-column justify-content-center align-items-center text-center jus">
+                    <h2 class="c-light-main"><span
+                            class="c-dark">Frequently Asked</span>
+                        Questions</h2>
+                    <p class="mt-3 w-75">Find answers to common questions about
+                        our services, process, and how we can help transform
+                        your business.</p>
+                </div>
+            </div>
+            <div class="container-fluid container-md container-lg">
+                <div class="accordion accordion d-flex flex-column gap-2"
+                    id="accordionExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button" type="button"
+                                data-bs-toggle="collapse"
+                                data-bs-target="#collapseOne"
+                                aria-expanded="true"
+                                aria-controls="collapseOne">
+                                What services does Clarity offer?
+                            </button>
+                        </h2>
+                        <div id="collapseOne"
+                            class="accordion-collapse collapse show"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                We offer a comprehensive range of digital
+                                services including web development, mobile
+                                applications, cloud solutions, AI & machine
+                                learning, digital marketing, and UI/UX design.
+                                Our team specializes in creating custom
+                                solutions tailored to your specific business
+                                needs, from initial concept through to
+                                deployment and ongoing support.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed"
+                                type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseTwo"
+                                aria-expanded="false"
+                                aria-controls="collapseTwo">
+                                How long does a typical project take?
+                            </button>
+                        </h2>
+                        <div id="collapseTwo"
+                            class="accordion-collapse collapse"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                Project timelines vary based on complexity and
+                                scope. A simple website might take 4-6 weeks,
+                                while a complex web application or mobile app
+                                could take 3-6 months. We provide detailed
+                                project timelines during our initial
+                                consultation and keep you updated throughout the
+                                development process with regular milestones and
+                                deliverables.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed"
+                                type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseThree"
+                                aria-expanded="false"
+                                aria-controls="collapseThree">
+                                What is your development process?
+                            </button>
+                        </h2>
+                        <div id="collapseThree"
+                            class="accordion-collapse collapse"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                We follow an agile development methodology that
+                                includes:
+                                <p><i
+                                        class="fa-solid fa-check me-1 c-main"></i>Discovery
+                                    &
+                                    Planning: Understanding your
+                                    requirements and goals</p>
+                                <p><i
+                                        class="fa-solid fa-check me-1 c-main"></i>Design:
+                                    Creating wireframe and visual designs
+                                    Development: Building your solution with
+                                    regular
+                                    updates</p>
+                                <p><i
+                                        class="fa-solid fa-check me-1 c-main"></i>Testing:
+                                    Rigorous QA and user testing
+                                    Deployment: Launch and ongoing support
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed"
+                                type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseFour"
+                                aria-expanded="false"
+                                aria-controls="collapseFour">
+                                Do you provide ongoing support and maintenance?
+                            </button>
+                        </h2>
+                        <div id="collapseFour"
+                            class="accordion-collapse collapse"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                Yes! We offer comprehensive support and
+                                maintenance packages to ensure your solution
+                                continues to perform optimally. This includes
+                                bug fixes, security updates, performance
+                                optimization, feature enhancements, and
+                                technical support. We can customize a
+                                maintenance plan that fits your specific needs
+                                and budget.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed"
+                                type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseFive"
+                                aria-expanded="false"
+                                aria-controls="collapseFive">
+                                What technologies do you work with?
+                            </button>
+                        </h2>
+                        <div id="collapseFive"
+                            class="accordion-collapse collapse"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                We work with cutting-edge technologies across
+                                the full stack. For frontend, we use React,
+                                Vue.js, Angular, and Next.js. Our backend
+                                expertise includes Node.js, Python, Golang, and
+                                Java. We're proficient in cloud platforms like
+                                AWS, Azure, and Google Cloud, and work with both
+                                SQL and NoSQL databases. We always choose the
+                                best technology stack for your specific project
+                                requirements.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed"
+                                type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseSix"
+                                aria-expanded="false"
+                                aria-controls="collapseSix">
+                                How do you ensure project security and data
+                                privacy?
+                            </button>
+                        </h2>
+                        <div id="collapseSix"
+                            class="accordion-collapse collapse"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                Security is our top priority. We implement
+                                industry-standard security practices including
+                                encryption, secure authentication, regular
+                                security audits, and compliance with data
+                                protection regulations (GDPR, HIPAA, etc.). All
+                                our developers sign NDAs, and we use secure
+                                development practices throughout the entire
+                                project lifecycle. We also provide security
+                                documentation and training for your team.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- --------------------------------------------------------------end of Faq---------------------------------------------- -->
+        <div id="ContactUS">
+            <div
+                class="section-head d-flex flex-column  align-items-center mb-5">
+                <div class="badge px-3 py-2 c-light rounded-pill mb-4">
+                    <i class="fa-solid fa-rocket"></i>
+                    <span>Let's Start Your Journey</span>
+                </div>
+                <div
+                    class="txt-content d-flex flex-column justify-content-center align-items-center text-center jus">
+                    <h2 class="c-light-main"><span
+                            class="c-dark">Ready to</span>
+                        Transform?</h2>
+                    <p class="mt-3 w-75">Take the first step towards digital
+                        excellence. Our experts are ready to turn your vision
+                        into reality.</p>
+                </div>
+            </div>
+            <div class="container-fluid container-md container-lg">
+                <div class="card overflow-hidden">
+                    <div class="row">
+                        <div class="col-12 col-lg-8 p-5">
+                            <h3 class="fs-3 c-dark fw-bolder">Get Your Free
+                                Consultation</h3>
+                            <p class="fs-4 mt-3">Fill out the form and we'll get
+                                back
+                                to you
+                                within 24 hours with a personalized
+                                proposal.</p>
+                            <form action="POST">
+                                <div class="d-flex flex-column gap-4 mt-5">
+                                    <div class="row">
+                                        <div class="col-12 col-md-6">
+                                            <div class="mb-3">
+                                                <label
+                                                    for="exampleFormControlInput1"
+                                                    class="form-label">First
+                                                    Name*</label>
+                                                <input type="text"
+                                                    class="form-control"
+                                                    id="exampleFormControlInput1"
+                                                    placeholder="John">
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-md-6">
+                                            <div class="mb-3">
+                                                <label
+                                                    for="exampleFormControlInput1"
+                                                    class="form-label">Last
+                                                    Name*</label>
+                                                <input type="text"
+                                                    class="form-control"
+                                                    id="exampleFormControlInput1"
+                                                    placeholder="Doe">
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-md-6">
+                                            <div class="mb-3">
+                                                <label
+                                                    for="exampleFormControlInput1"
+                                                    class="form-label">Email
+                                                    address*</label>
+                                                <input type="email"
+                                                    class="form-control"
+                                                    id="exampleFormControlInput1"
+                                                    placeholder="name@example.com">
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-md-6">
+                                            <div class="mb-3">
+                                                <label
+                                                    for="exampleFormControlInput1"
+                                                    class="form-label">Compony</label>
+                                                <input type="email"
+                                                    class="form-control"
+                                                    id="exampleFormControlInput1"
+                                                    placeholder="Your Compony Name">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <label for>Primary Interest
+                                        </label>
+                                        <br />
+                                        <select id="Primary"
+                                            class="form-select mt-3"
+                                            aria-label="Default select example">
+                                            <option selected>Choose Your Focus
+                                                Area</option>
+                                            <option value="1">Web Development &
+                                                Design</option>
+                                            <option value="2">Mobile App
+                                                Development</option>
+                                            <option value="3">Cloud &
+                                                infrastructure</option>
+                                            <option value="4">AI & Machine
+                                                Learning</option>
+                                            <option value="5">Digital
+                                                MArketing</option>
+                                            <option value="6">Complete Digital
+                                                Transformation</option>
+                                        </select>
+                                    </div>
+                                    <div>
+                                        <label for>Timeline
+                                        </label>
+                                        <br />
+                                        <select class="form-select mt-3"
+                                            id="Timeline"
+                                            aria-label="Default select example">
+                                            <option selected>When do you want to
+                                                start</option>
+                                            <option
+                                                value="1">Immediatly</option>
+                                            <option value="2">Within 1
+                                                Month</option>
+                                            <option value="3">Within 3
+                                                Month</option>
+                                            <option value="4">Within 6
+                                                Month</option>
+                                            <option value="5">Just Exploring
+                                                Options</option>
+                                        </select>
+                                    </div>
+                                    <div class="budget row g-4">
+                                        <div class="col-12 col-md-4 text-center"
+                                            tabindex="0">
+                                            <div class="inner-card p-4 h-100">
+                                                <h4
+                                                    class="fs-5 fw-bolder ">$25K
+                                                    - $50K</h4>
+                                                <p>Growth</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-md-4 text-center"
+                                            tabindex="0">
+                                            <div class="inner-card p-4 h-100">
+                                                <h4
+                                                    class="fs-5 fw-bolder ">$50K
+                                                    - $100K</h4>
+                                                <p>Scale</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-md-4 text-center"
+                                            tabindex="0">
+                                            <div class="inner-card p-4 h-100">
+                                                <h4
+                                                    class="fs-5 fw-bolder ">$100K+</h4>
+                                                <p>Enterprise</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="exampleFormControlTextarea1"
+                                            class="form-label">Tell us about
+                                            your
+                                            project</label>
+                                        <textarea class="form-control"
+                                            id="exampleFormControlTextarea1"
+                                            rows="3"></textarea>
+                                    </div>
+                                    <div
+                                        class="form-check d-flex align-items-center gap-4">
+                                        <input class="form-check-input p-2"
+                                            type="checkbox" value
+                                            id="checkDefault">
+                                        <label class="form-check-label"
+                                            for="checkDefault">
+                                            I agree to receive communications
+                                            and
+                                            accept the <a class="c-light-dark"
+                                                href>Privacy Policy</a>
+                                        </label>
+                                    </div>
+                                    <button
+                                        class="c-button text-white fs-4 rounded-4 fw-bolder p-3 border-0 c-bg-light-dark">Get
+                                        My
+                                        Free
+                                        Consultation
+                                        <i
+                                            class="fa-solid fa-arrow-right-long"></i>
+                                    </button>
+                                </div>
+                            </form>
+                        </div>
+                        <div
+                            class=" info col-12 col-lg-4 c-bg-dark-light-dark p-5 c-bg-light-dark text-white">
+                            <div class="d-flex flex-column gap-4">
+                                <h4 class="fs-3 fw-bolder">Why Choose
+                                    Clarity?</h4>
+                                <div class="d-flex align-items-center gap-2">
+                                    <div class="icon">
+                                        <i class="fa-solid fa-clock fs-5"></i>
+                                    </div>
+                                    <div>
+                                        <h5 class="fs-5 mb-2">24-Hour
+                                            Response</h5>
+                                        <p class="text-light">Quick turnaround
+                                            on all inquiries
+
+                                            with detailed project analysis</p>
+                                    </div>
+                                </div>
+                                <div class="d-flex align-items-center gap-2">
+                                    <div class="icon">
+                                        <i
+                                            class="fa-solid fa-shield-halved fs-5"></i>
+                                    </div>
+                                    <div>
+                                        <h5 class="fs-5 mb-2">100%
+                                            Satisfaction</h5>
+                                        <p class="text-light">Money-back
+                                            guarantee if you're not completely
+                                            satisfied</p>
+                                    </div>
+                                </div>
+                                <div class="d-flex align-items-center gap-2">
+                                    <div class="icon">
+                                        <i
+                                            class="fa-solid fa-people-group fs-5"></i>
+                                    </div>
+                                    <div>
+                                        <h5 class="fs-5 mb-2">Expert Team</h5>
+                                        <p class="text-light">150+ certified
+                                            professionals with 8+ years
+                                            experience</p>
+                                    </div>
+                                </div>
+                                <div class="divider"></div>
+                                <div>
+                                    <h5 class="fs-5">Direct Contact</h5>
+                                    <div class="text-white py-3">
+                                        <i class="fa-solid fa-envelope"></i>
+                                        <span>+1 (555) 123-4567
+                                        </span>
+                                    </div>
+                                    <div class="text-white py-3 ">
+                                        <i class="fa-solid fa-phone"></i>
+                                        <span>hello@clarity.com
+                                        </span>
+                                    </div>
+                                    <div class="text-white py-3">
+                                        <i class="fa-solid fa-location-pin"></i>
+                                        <span>San Francisco, CA
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- ----------------------------------------------------------------------Footer---------------------------------------------------- -->
+        <footer>
+            <div class="container-fluid container-md container-lg">
+                <div
+                    class="d-flex flex-column flex-md-row justify-content-md-between">
+                    <div>
+                        <div class="logo d-flex align-items-center gap-2">
+                            <div
+                                class="icon d-flex p-2 c-bg-light-main rounded-3">
+                                <i
+                                    class="fa-solid fa-laptop-code text-white"></i>
+                            </div>
+                            <span
+                                class="fs-3 fw-bolder c-main text-black">Clarity</span>
+                        </div>
+                        <p class="mt-3 fs-6">Transforming businesses through
+                            innovative digital
+                            solutions and cutting-edge technology.</p>
+                    </div>
+                    <div>
+                        <div class="links d-flex gap-2 mt-3">
+                            <a href="#" class="link p-2 rounded-3">
+                                <i class="fa-brands fa-linkedin-in"></i>
+                            </a>
+                            <a href="#" class="link p-2 rounded-3"><i
+                                    class="fa-brands fa-twitter"></i></a>
+                            <a class="link p-2 rounded-3" href="#">
+                                <i class="fa-brands fa-github"></i>
+                            </a>
+
+                            <a href="#" class="link p-2 rounded-3">
+
+                                <i class="fa-solid fa-basketball"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="divider mt-5"></div>
+                <div class="copyright py-3 text-center">
+                    <p>© 2025 Clarity. All rights reserved.</p>
+                    <p>Made with <i class="fa-solid fa-heart c-main"></i>
+                        for amazing experiences</p>
+                </div>
+            </div>
+        </footer>
+        <!-- ----------------------------------------------------------------------Footer end---------------------------------------------------- -->
         <!-- -------------------------------------------------scripts---------------------- -->
         <script src="./JS/bootstrap.bundle.min.js"></script>
         <script src="./JS/main.js"></script>
